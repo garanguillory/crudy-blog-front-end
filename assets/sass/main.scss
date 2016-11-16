@@ -1,0 +1,19 @@
+@import "partials/login";
+@import "partials/signup";
+
+
+ul {
+	padding-left: 0px;
+	text-decoration: none;
+}
+
+a {
+	color: black;
+	&:hover{
+		color: lighten(black, 5%);
+	}
+}
+
+.error {
+	color: red;
+}
